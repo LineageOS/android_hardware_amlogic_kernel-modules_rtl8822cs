@@ -34,7 +34,7 @@ KERNEL_OUT := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ
 $(_rtl8822cs_ko): $(KERNEL_OUT)/arch/$(KERNEL_ARCH)/boot/$(BOARD_KERNEL_IMAGE_NAME)
 	@mkdir -p $(dir $@)
 	@cp -R $(RTL8822CS_PATH)/* $(_rtl8822cs_intermediates)/
-	$(hide) +$(KERNEL_MAKE_CMD) $(PATH_OVERRIDE) $(KERNEL_MAKE_FLAGS) -C $(KERNEL_OUT) M=$(abspath $(_rtl8822cs_intermediates)) ARCH=$(TARGET_KERNEL_ARCH) $(KERNEL_CROSS_COMPILE) $(RTL8822CS_CONFIGS) modules
+	$(PATH_OVERRIDE) $(KERNEL_MAKE_CMD) $(KERNEL_MAKE_FLAGS) -C $(KERNEL_OUT) M=$(abspath $(_rtl8822cs_intermediates)) ARCH=$(TARGET_KERNEL_ARCH) $(KERNEL_CROSS_COMPILE) $(RTL8822CS_CONFIGS) $(KERNEL_CLANG_TRIPLE) $(KERNEL_CC) modules
 	$(KERNEL_TOOLCHAIN_PATH)strip --strip-unneeded $@;
 
 include $(BUILD_SYSTEM)/base_rules.mk
