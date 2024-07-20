@@ -20,7 +20,8 @@ ifeq ($(GCC_VER_49),1)
 EXTRA_CFLAGS += -Wno-date-time	# Fix compile error && warning on gcc 4.9 and later
 endif
 
-EXTRA_CFLAGS += -I$(src)/include
+KERNEL_SRC := $(CURDIR)/../../../../../../kernel/amlogic/linux-4.9
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/$(M)/include
 
 EXTRA_LDFLAGS += --strip-debug
 
@@ -242,11 +243,10 @@ _HAL_INTFS_FILES :=	hal/hal_intf.o \
 			hal/led/hal_led.o \
 			hal/led/hal_$(HCI_NAME)_led.o
 
-
-EXTRA_CFLAGS += -I$(src)/platform
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/$(M)/platform
 _PLATFORM_FILES := platform/platform_ops.o
 
-EXTRA_CFLAGS += -I$(src)/hal/btc
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/$(M)/hal/btc
 
 ########### HAL_RTL8188E #################################
 ifeq ($(CONFIG_RTL8188E), y)
