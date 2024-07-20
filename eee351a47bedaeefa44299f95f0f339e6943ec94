@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b89da121_70d669d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-07-20T15:57:55Z",
+      "side": 1,
+      "message": "@johnsonnolen@gmail.com this compiles, please test if driver really works. Adding @webgeek1234@gmail.com here as he might have a better idea instead of hardcoding KERNEL_SRC.",
+      "revId": "eee351a47bedaeefa44299f95f0f339e6943ec94",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
