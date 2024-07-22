@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7c29a1d_46a302b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-07-22T17:41:39Z",
+      "side": 1,
+      "message": "Doesn\u0027t build for me `fatal error: \u0027drv_types.h\u0027 file not found`",
+      "revId": "783fadd064703fcbc429f9385a88e945911ae5fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
