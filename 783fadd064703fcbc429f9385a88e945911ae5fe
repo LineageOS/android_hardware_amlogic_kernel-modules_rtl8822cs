@@ -16,6 +16,24 @@
       "message": "Doesn\u0027t build for me `fatal error: \u0027drv_types.h\u0027 file not found`",
       "revId": "783fadd064703fcbc429f9385a88e945911ae5fe",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73269268_d3cca6c3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-07-28T13:11:18Z",
+      "side": 1,
+      "message": "\u003e  #### build completed successfully (01:06 (mm:ss)) ####\n\u003e  \n\u003e  bgcngm@analog:~/android/lineage-next$ ls $OUT/vendor_dlkm/lib/modules/ -l | grep 8822\n\u003e  -rw-rw-r-- 1 bgcngm bgcngm 5838960 Jul 28 14:09 8822cs.ko",
+      "parentUuid": "e7c29a1d_46a302b6",
+      "revId": "783fadd064703fcbc429f9385a88e945911ae5fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
