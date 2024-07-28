@@ -34,6 +34,24 @@
       "parentUuid": "e7c29a1d_46a302b6",
       "revId": "783fadd064703fcbc429f9385a88e945911ae5fe",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b563be8c_b69bf83f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-07-28T13:12:30Z",
+      "side": 1,
+      "message": "^ bananapi m5 build",
+      "parentUuid": "73269268_d3cca6c3",
+      "revId": "783fadd064703fcbc429f9385a88e945911ae5fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
