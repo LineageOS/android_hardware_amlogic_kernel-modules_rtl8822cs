@@ -52,6 +52,23 @@
       "parentUuid": "73269268_d3cca6c3",
       "revId": "783fadd064703fcbc429f9385a88e945911ae5fe",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c969615a_e18936c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-07-29T17:23:17Z",
+      "side": 1,
+      "message": "showed you in discord, this _still_ won\u0027t build for me targeting m5",
+      "revId": "783fadd064703fcbc429f9385a88e945911ae5fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
